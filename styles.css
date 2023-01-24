@@ -7,12 +7,13 @@ body{
     flex: 1;
 }
 
-.hero{
+.hero, .footer{
     display: flex;
     color: white;
     flex-direction: column;
     background-color: #1F2937;
-    width: 100%;
+}
+.hero{
     padding-bottom: 20px;
 }
 .header{
@@ -35,11 +36,11 @@ a{
     font-size: 18px;
     font-weight: 100;
 }
-.hero> .content{
+.hero > .content{
     display: flex;
     font-size: 18px;
     color: #E5E7EB;
-    margin: 10px;
+    gap: 10px;
     
 }
 .content > .right{
@@ -141,4 +142,10 @@ h1{
     width: 100px;
     height: 25px;
     justify-self: flex-end;
+}
+
+.footer{
+ align-items: center;
+ justify-content: center;
+ margin: 0px;
 }
